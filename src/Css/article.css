@@ -1,0 +1,90 @@
+/*----------- Styling for Article -----------*/
+
+.Article {
+  width: 80vw;
+  height: auto;
+  margin: 20px 10% 5% 10%;
+}
+
+.ArticleNews {
+  width: 50vw;
+  height: auto;
+  margin: 20px 15% 5% 20%;
+  overflow: hidden;
+}
+
+.ArticleNews img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.h2 {
+  text-decoration: none;
+}
+
+.ArticleContent {
+  margin: 15px 0px 15px 0px;
+  font-size: 17px;
+}
+
+.ArticleLikes {
+  font-size: 25px;
+  color: rgb(218, 33, 33);
+  width: 26vw;
+  display: inline-block;
+}
+
+p {
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 5px 10px 5px;
+}
+
+
+/* --------More From The Siren--------*/
+
+.CategoryBox {
+  width: 70vw;
+  height: auto;
+  margin: 20px 10% 5% 8%;
+  overflow: hidden;
+}
+
+.MoreFromSiren {
+  width: 30vw;
+  height: auto;
+  font-variant: small-caps;
+  font-size: 5vh;
+  text-align: center;
+  margin: 2% 35% 2% 30%;
+}
+
+.Category {
+  border: 0.8px solid rebeccapurple;
+  height: 50vh;
+  width: 30vw;
+  margin: 30px 2.5% 10px 2.5%;
+  padding: 0px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.CategoryImg {
+  height: 70%;
+  border-bottom: 0.5px solid rebeccapurple;
+}
+
+.CategoryTitle {
+  padding: 0px 0px 0px 5px;
+}
+
+.CategoryDate {
+  width: 7.5vw;
+  padding: 0px 0px 0px 5px;
+}
+
+.h4 {
+  color: rebeccapurple;
+
+}

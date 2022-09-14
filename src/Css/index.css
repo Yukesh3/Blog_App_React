@@ -1,0 +1,241 @@
+body {
+  margin: 0px;
+}
+
+/*----------- Styling for Pages -----------*/
+
+.MainBox {
+  width: 55vw;
+  height: auto;
+  margin: 20px 0px 20px 10%;
+  display: inline-block;
+}
+
+.News {
+  border: 2px solid rebeccapurple;
+  height: 35vh;
+  width: 55vw;
+  margin: 0px 0px 10px 0px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 'one two''one three''one four';
+  overflow: hidden;
+}
+
+.imgBox {
+  grid-area: one;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.TitleBox p {
+  grid-area: two;
+}
+
+.h4 {
+  text-decoration: none;
+}
+
+.ContentBox {
+  grid-area: three;
+  width: 95%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 5vh;
+  margin: -7px 0px;
+  white-space: wrap;
+}
+
+.DateBox {
+  grid-area: four;
+}
+
+.showML {
+  border: none;
+  background-color: white;
+  font-size: 1.1em;
+  border-radius: 10px;
+  color: rebeccapurple;
+  cursor: pointer;
+}
+
+
+/*----------- Styling for Navbar -----------*/
+
+.navbar {
+  width: 80vw;
+  height: 25vh;
+  margin: 0px 10% 20px 10%;
+  background-color: ghostwhite;
+  color: black;
+  border-bottom: 0.5px solid black;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.navbar button {
+  height: 30px;
+  width: 150px;
+  background-color: ghostwhite;
+  border-style: none;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 0px 40px 2px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rebeccapurple;
+
+}
+
+
+.navbar button:hover {
+  color: royalblue;
+}
+
+.navbar button:focus {
+  color: white;
+  background-color: royalblue;
+  border-radius: 10px;
+}
+
+.The {
+  transform: rotate(270deg);
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  height: auto;
+  width: 50px;
+  padding: 0px 2px 4px 8px;
+  font-size: 25px;
+  background: black;
+  color: white;
+  font-family: monospace;
+}
+
+.Siren {
+  font-variant: all-petite-caps;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  position: absolute;
+  font-size: 3em;
+  left: 50%;
+  top: 8%;
+}
+
+
+/*----------- Styling for TopPosts -----------*/
+
+.TopPosts {
+  display: inline-block;
+  width: 24.4vw;
+  height: 1455px;
+  position: absolute;
+  margin: 20px 15% 20px 10px;
+  background-color: rgb(240, 248, 255);
+}
+
+.TopPostsText {
+  font-size: 2.5em;
+}
+
+.TopPostsText hr {
+  background-color: rgb(188, 97, 225);
+  margin-left: 0px;
+  width: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(188, 97, 225);
+}
+
+.Box {
+  border: 0.1px solid rebeccapurple;
+  background-color: white;
+  height: 22vh;
+  width: 100%;
+  margin: 20px 0px 8px 0px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: 'one two''one two''one three';
+}
+
+.TopPostTitle {
+  font-size: 12px;
+  text-decoration: none;
+  color: rebeccapurple;
+  cursor: pointer;
+}
+
+.BoxImg {
+  grid-area: one;
+  width: 100%;
+  height: 100%;
+}
+
+.BoxTitle {
+  grid-area: two;
+  padding: 2px;
+}
+
+.BoxDate {
+  grid-area: three;
+  padding: 2px;
+}
+
+
+/*----------- Styling for Add & LightMode-----------*/
+
+.Add {
+  height: 26.7%;
+  width: 100%;
+  margin-top: 3.5px;
+  display: inline-block;
+}
+
+.lightMode {
+  position: absolute;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  right: 140px;
+  font-size: 1em;
+  transform: rotate(180deg);
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+  background-size: cover;
+}
+
+/*----------- Media query-----------*/
+
+@media only screen and (min-width: 700px) and (max-width:1440px) {
+  .navbar button {
+    height: 35px;
+    width: 80px;
+    background-color: ghostwhite;
+    border-style: none;
+    padding: 5px;
+    margin: 0px 60px 0px 0px;
+    font-size: 18px;
+    color: rebeccapurple;
+    cursor: pointer;
+  }
+
+  .Siren {
+    font-variant: all-petite-caps;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    position: absolute;
+    font-size: 3em;
+    left: 50%;
+    top: 9%;
+  }
+
+}
